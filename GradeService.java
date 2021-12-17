@@ -1,6 +1,7 @@
 package uk.ac.wlv.smells;
 
 @Transactional
+@RequiredArgsConstructor
 public class GradeService {
     private final LecturerRepository lecturerRepository;
 
